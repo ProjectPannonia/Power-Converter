@@ -15,6 +15,9 @@ namespace HpToKw.Tests
         private double expectedValue;
         private double calculateResult;
 
+        /*
+         Test for: Watt ->
+        */
         [TestMethod()]
         public void calculateTestWattToKw()
         {
@@ -61,6 +64,9 @@ namespace HpToKw.Tests
             Assert.AreEqual(expectedValue, calculateResult);
         }
         */
+        /*
+         Test for: Kwatt ->
+        */
         [TestMethod()]
         public void calculateTestKwattToW()
         {
@@ -77,6 +83,56 @@ namespace HpToKw.Tests
         {
             from = "Kilowatt";
             to = "Megawatt";
+            value = 1;
+            expectedValue = 0.001;
+            calculateResult = Converter.calculate(from, to, value);
+
+            Assert.AreEqual(expectedValue, calculateResult);
+        }
+        [TestMethod()]
+        public void calculateTestKwattToGw()
+        {
+            from = "Kilowatt";
+            to = "Gigawatt";
+            value = 1000;
+            expectedValue = 0.001;
+            calculateResult = Converter.calculate(from, to, value);
+
+            Assert.AreEqual(expectedValue, calculateResult);
+        }
+
+        /*
+         Test for: Mwatt ->
+        */
+        [TestMethod()]
+        public void calculateTestMwattToW()
+        {
+            from = "Megawatt";
+            to = "Watt";
+            value = 1;
+            expectedValue = 1000000;
+            calculateResult = Converter.calculate(from, to, value);
+
+            Assert.AreEqual(expectedValue, calculateResult);
+        }
+        
+        [TestMethod()]
+        public void calculateTestMwattToKw()
+        {
+            from = "Megawatt";
+            to = "Kilowatt";
+            value = 1;
+            expectedValue = 1000;
+            calculateResult = Converter.calculate(from, to, value);
+
+            Assert.AreEqual(expectedValue, calculateResult);
+        }
+
+        [TestMethod()]
+        public void calculateTestMwattToGw()
+        {
+            from = "Megawatt";
+            to = "Gigawatt";
             value = 1;
             expectedValue = 0.001;
             calculateResult = Converter.calculate(from, to, value);

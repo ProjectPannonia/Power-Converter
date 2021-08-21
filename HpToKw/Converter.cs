@@ -95,7 +95,7 @@ namespace HpToKw
                     value /= 1000;
                     break;
                 case Units.Gigawatt:
-                    value *= 1000000;
+                    value /= 1000000;
                     break;
                 case Units.Horse_power_metric:
                     value /= 0.735499;
@@ -119,7 +119,7 @@ namespace HpToKw
                     value *= 1000;
                     break;
                 case Units.Gigawatt:
-                    value *= 1000;
+                    value /= 1000;
                     break;
                 case Units.Horse_power_metric:
                     value *= 1359.6211551613;
