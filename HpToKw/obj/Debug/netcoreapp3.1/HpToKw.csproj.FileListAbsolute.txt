@@ -1,0 +1,16 @@
+D:\Repo\C#\HpToKw\HpToKw\bin\Debug\netcoreapp3.1\HpToKw.exe
+D:\Repo\C#\HpToKw\HpToKw\bin\Debug\netcoreapp3.1\HpToKw.deps.json
+D:\Repo\C#\HpToKw\HpToKw\bin\Debug\netcoreapp3.1\HpToKw.runtimeconfig.json
+D:\Repo\C#\HpToKw\HpToKw\bin\Debug\netcoreapp3.1\HpToKw.runtimeconfig.dev.json
+D:\Repo\C#\HpToKw\HpToKw\bin\Debug\netcoreapp3.1\HpToKw.dll
+D:\Repo\C#\HpToKw\HpToKw\bin\Debug\netcoreapp3.1\HpToKw.pdb
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.csproj.AssemblyReference.cache
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.Form1.resources
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.csproj.GenerateResource.cache
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.AssemblyInfoInputs.cache
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.AssemblyInfo.cs
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.csproj.CoreCompileInputs.cache
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.dll
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.pdb
+D:\Repo\C#\HpToKw\HpToKw\obj\Debug\netcoreapp3.1\HpToKw.genruntimeconfig.cache
